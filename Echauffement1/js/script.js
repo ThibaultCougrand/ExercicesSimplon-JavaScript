@@ -8,9 +8,9 @@ Répondre :
 
 ● “Bonjour !” */
 
-var name = window.prompt("Saisir votre nom");
+var name = prompt("Saisir votre nom");
 if (name.length > 0 && name.length < 11) {
-    window.alert("Bonjour " + name + " !")
+    alert("Bonjour " + name + " !")
 } else {
-   window.alert("Ce nom n'est pas valide")
+   alert("Ce nom n'est pas valide")
 }
