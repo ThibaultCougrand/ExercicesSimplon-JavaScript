@@ -16,7 +16,7 @@ while (i < 1) {
 }
 while (j < 1) {
     var septNain = window.prompt("Combien y a-t-il de 7 nains ?")
-    if (septNain === 7) {
+    if (septNain === "7") {
         window.alert("Bravo ! tu es vraiment trop fort");
         j++;
     } else {
