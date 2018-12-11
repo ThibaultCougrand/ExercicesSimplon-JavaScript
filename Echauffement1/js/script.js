@@ -12,5 +12,5 @@ var name = prompt("Saisir votre nom");
 if (name.length > 0 && name.length < 11) {
     alert("Bonjour " + name + " !")
 } else {
-   alert("Ce nom n'est pas valide")
+    alert("Ce nom n'est pas valide")
 }
